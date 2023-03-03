@@ -9,8 +9,8 @@ MMCA 리뉴얼 사이트
 
 ## :bulb:서비스 및 프로젝트 소개
 
-**`MuseumProject`** 는 2021년 당시  MMCA가 리뉴얼이 안된 2016년 버전을 리뉴얼 하고자 제작 되었다. 
-관람안내 , 전시, 참여, 소식 등으로 구분되어있다.
+**`MuseumProject`** 는 2021년 당시  MMCA가 리뉴얼이 안된 2016년 버전을 리뉴얼 하고자 제작했습니다.
+관람안내, 전시, 참여, 소식 등으로 구분되어있습니다. 미디어쿼리가 적용되었습니다.
 
 ## 📖:기획서
 [MMCA미술관기획박소영.pdf](https://github.com/firsthandcraft/MuseumProject/files/10870723/MMCA.pdf)
