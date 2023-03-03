@@ -1,0 +1,218 @@
+@charset "utf-8";
+
+@media screen and (min-width: 1200px) {
+    /* ------------------------------------------- */
+    /* main */
+    /* 비디오섹션 */
+    #box02>.video figure{
+        width: 700px;
+    }
+    /*box02  */
+    #box02 section{
+        width: 1200px;
+        margin:50px auto;
+    }
+    #box02 #parti01{margin:0 auto;padding-top:100px;}
+    /* 03 섹션  */
+    #parti03{
+        height: 595px;
+    }
+    #parti03 .line{
+        width: 800px;
+        height: 500px;
+    }
+    #parti03 .image>img{
+        height: 398px;
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width:1199px) and (min-width: 980px) {
+    /* ------------------------------------------- */
+    /* main */
+    /*box02  */
+    #box02 section{
+        width: 90%;
+        height: 490px;
+    }
+    .contents>dl{
+        padding-top: 0;
+    }
+    .contents>dl>dt:nth-child(2){
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .contents>dl>dd{
+        margin-top: 15px;
+        font: 14px/20px 'noto Sans KR',sans-serif;
+    }
+    #box02>.grayback .image>img{
+        height: 100%;
+    }
+    /* 01 섹션 */
+    #parti01 .image>img{
+    height: 100%;
+    }
+    /* 비디오섹션 */
+    #box02>.video figure{
+        width: 700px;
+    }
+    #box02>.video{
+        height: 400px;
+    }
+    /* 03 섹션  */
+    #parti03 .line{
+        height: 80%;
+    }
+    #parti03 .image>img{
+        margin-top: 10%;
+    }
+
+}
+@media screen and (max-width:979px) and (min-width: 580px) {
+     /* ------------------------------------------- */
+    /* main */
+
+    /* box02 */
+    /* aside */
+    #box02>aside>p{
+        width: 100px;
+        font: 12px/30px 'noto Sans KR',sans-serif;
+    }
+    /* section */
+    #box02 section{
+        width: 90%;
+        height: 430px;
+    }
+    /* 비디오섹션 */
+    main>#box02>section.video{
+        height: 460px;
+        background-color: #fff;
+    }
+    /*  */
+    .contents>dl{
+        padding-top: 0;
+    }
+    .contents>dl>dt:nth-child(2){
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .contents>dl>dd{
+        margin-top: 15px;
+        font: 14px/20px 'noto Sans KR',sans-serif;
+    }
+    .contents p.script{
+        display: none;
+    }
+    /* 01 섹션  */
+
+    /* 03 섹션  */
+    #parti03 .line{
+        height: 70%;
+    }
+    #parti03 .image>img{
+        margin-top: 60px;
+    }
+        /* ------------------------------------------- */
+    /* modal */
+    #modal>div{
+        width: 300px;
+        height: 650px;
+        margin: -350px 0 0 -180px;
+    }
+    #join p:nth-child(4){
+        float:unset;
+    }
+    #join p:nth-child(5){
+        float:unset;
+    }
+    #join p:nth-child(4) input{
+        width: 100%;
+    }
+    #join p:nth-child(5) input{
+        width: 100%;
+    }
+}
+@media screen and (max-width:579px) {
+     /* ------------------------------------------- */
+    /* main */
+    /* box02 */
+    /* aside */
+    #box02>aside>p{
+        width: 80px;
+        font: 12px/30px 'noto Sans KR',sans-serif;
+    }
+    /*aside 검색 */
+    #box02>aside>form{
+        /* width: 150px; */
+        display: none;
+    }
+    /* section */
+    #box02 section>div.image{
+        width: 80%;
+    }
+    #box02 section{
+        width: 90%;
+        height:290px;
+    }
+    .contents>dl{
+        padding-top: 0;
+    }
+    .contents>dl>dt:nth-child(2){
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .contents>dl>dt{
+        font: 24px/30px 'noto Sans KR',sans-serif;
+        color: #222;
+    }
+    .contents>dl>dd{
+        margin-top: 15px;
+        font: 12px/20px 'noto Sans KR',sans-serif;
+    }
+    /* 01섹션 */
+    /* 01 섹션  */
+    #parti01 .image>img:nth-child(1){
+        display: none;
+    }
+    #parti01 .image>img:nth-child(2){
+        display: block;
+    }
+    /* 03섹션 */
+    #parti03 .line{
+        height: 70%;
+    }
+    #parti03 .image>img{
+        margin-top: 50px;
+    }
+    /* 신청하기 */
+    .contents p.script{
+        display: none;
+    }
+    .contents>p.app{
+        font-size: 12px;
+        margin-top: 50px;
+        text-align: center;
+    } 
+    .contents p.app>a{
+        margin: 5px;
+    }
+    /* ------------------------------------------- */
+    /* modal */
+    #modal>div{
+        width: 300px;
+        height: 650px;
+        margin: -350px 0 0 -180px;
+    }
+    #join p:nth-child(4){
+        float:unset;
+    }
+    #join p:nth-child(5){
+        float:unset;
+    }
+    #join p:nth-child(4) input{
+        width: 100%;
+    }
+    #join p:nth-child(5) input{
+        width: 100%;
+    }
+}

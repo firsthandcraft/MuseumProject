@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MMCA_online_museum_mypage</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/mypage.css">
+    <link rel="stylesheet" href="../css/mypagemediaquery.css">
+
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/headermediaquery.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/footermediaquery.css">
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/headerFooter.js"></script> 
+</head>
+<body>
+    <div id="wrap">
+        <div class="header_html"></div>
+ <!-- ---------------------------------------------------------------- -->
+        <!-- main -->
+        <main>
+            <h4>마이페이지</h4>
+            <ul>
+                <li><a href="#">개인정보 수정</a></li>
+                <li><a href="#">참여 내역</a></li>
+            </ul>
+            <div id="form">
+                <form action="#" method="POST">
+                    <p>이메일 <span>asedfg@hjklibnm.vnd</span></p>
+                    <p><label for="userPw"></label>
+                        <input type="password" id="userPw" minlength="6" placeholder="비밀번호" required>
+                    </p>
+                    <p><label for="userPw"></label>
+                        <input type="password" id="userPw" minlength="6" placeholder="비밀번호재확인" required>
+                    </p>
+                    <p>
+                        <label for="userName"></label>
+                        <input type="text" id="userName" placeholder="이름">
+                    </p>
+                    <p><label for="userTel"></label>
+                        <input type="tel" id="userTel" placeholder="연락처">
+                    </p>
+                    <p><span>수신여부</span>
+                        <label><input type="checkbox" checked>SNS</label>
+                        <label><input type="checkbox">Email</label>
+                        <label><input type="checkbox">웹진(뉴스레터))</label>
+                        <label><input type="checkbox">(광고)전시/교육/행사 홍보</label>
+                    </p>
+                    <p>* SMS 수신동의와 상관없이 교육 및 관람 예약(결제),취소(환불)등에 대한 내용은 발송됩니다.</p>
+                    <p><input type="submit" value="수정완료"></p>
+                    <small>or</small>
+                    <div class="or">
+                        <p><a href="#">회원탈퇴</a></p>
+                    </div>
+                    
+                </form>
+            </div>
+            </div>
+        </main>
+        <!-- main -->
+        <!-- ---------------------------------------------------------------- -->
+        <div class="footer_html"></div>
+    </div>  
+</body>
+</html>

@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+@media screen and (min-width: 1200px) {
+    /* ------------------------------------------- */
+    /* main */
+    #contents{
+        width: 1200px;
+    }
+    /* ------------------------------------------- */
+   
+}
+@media screen and (max-width:1199px) and (min-width: 980px) {
+   
+    /* ------------------------------------------- */
+    /* main */
+    main{}
+    .imgshow{
+       display: none;
+    }
+    #contents{
+        width: 90%;
+    }
+    .tablewrap{
+        width: 100%;
+    }
+    /* ------------------------------------------- */
+   
+}
+@media screen and (max-width:979px) and (min-width: 580px) {
+    /* ------------------------------------------- */
+  
+    /* ------------------------------------------- */
+    /* main */
+    main{}
+    .imgshow{
+        display: none;
+     }
+     #contents{
+         width: 90%;
+     }
+     .tablewrap{
+         width: 100%;
+     }   
+   
+}
+@media screen and (max-width:579px) {
+    
+    /* ------------------------------------------- */
+    /* main */
+    /* 검색 */
+    .imgshow{
+        display: none;
+     }
+     #contents{
+         width: 90%;
+     }
+     .tablewrap{
+         width: 100%;
+     }
+    
+}

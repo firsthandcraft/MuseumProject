@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ------------------------------------------- */
+/* main */
+main{
+    width: 100%;
+    margin-top: 100px;
+}
+h4{text-align:center;}
+/* 공지사항 QNA 전시 */
+main>ul{
+    display: flex;
+    justify-content: center;
+}
+main>ul>li{
+    width: 100px;
+    padding-right: 10px;
+    font: 18px 'noto Sans KR',sans-serif;
+    text-align: center;
+    border-right: 1px solid #222;
+}
+main>ul>li:last-child{
+    border: none;
+}
+main>ul>li>a{
+    color: #222;
+}
+/* 검색 */
+main>form{
+    width: 260px;
+    margin: 30px auto;
+    
+}
+main>form fieldset {}
+main>form p{
+    width: 100%;
+}
+main>form p>label{
+    float: right;
+}
+main>form p>input{
+    width: 200px;
+    font: 16px 'noto Sans KR',sans-serif;
+}
+/*  */
+#contents{
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+}
+.tablewrap{
+    width: 60%;
+}
+.tablewrap>table{
+    width: 100%;
+}
+.tablewrap>table>tbody{}
+.tablewrap>table>tbody>tr{
+    border-top: 1px solid #222;
+}
+.tablewrap>table>tbody>tr>td{
+    font: 16px/50px 'noto Sans KR',sans-serif;
+}
+.tablewrap>table>tbody>tr>td:nth-child(2) {
+    width: 50px;
+}
+.tablewrap>table>tbody>tr>td>a{
+    color: #222;
+}
+.tablewrap>ul.pagenum{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin: 40px auto 0;
+}
+.tablewrap>ul.pagenum>li{
+    font: 18px/40px 'noto Sans KR',sans-serif;
+    margin: 0 15px;
+}
+.tablewrap>ul.pagenum>li>a{
+    color: #222;
+}
+.imgshow{
+    width: 30%;
+    margin: 0 auto;
+}

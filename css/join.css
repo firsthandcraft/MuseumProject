@@ -1,0 +1,358 @@
+@charset "utf-8";
+/* CSS Document */
+@keyframes opacity{
+	0%{opacity: 0;}
+	40%{opacity: 1;}
+	100%{opacity: 1;}
+}
+header>#headerwrap>ul>.highlight>a{
+    color: #fff;
+}
+/* ------------------------------------------- */
+/* main */
+main{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+/* 베너 */
+/* box01 */
+#box01{
+    margin: 70px auto 0;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+#box01 .small{
+    width: 2000px;
+    height: 500px;
+    position: absolute;
+    left: 50%; top: 0;
+    margin: 0 0 0 -1000px;
+
+}
+#box01>.small>li{
+    height: 500px;
+    position: absolute;
+    top: 0; left: 0;
+}
+
+/* box02 */
+#box02{
+    position: relative;
+}
+#box02>aside.on{
+    position: fixed;
+    top: 70px;
+}
+#box02>aside{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 0; top: 0;
+    z-index: 2000;
+    width: 100%;
+    height: 35px;
+    background-color: #222;
+}
+#box02>aside>p{
+    width: 120px;
+    font: 14px/30px 'noto Sans KR',sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+aside a{
+    color: #999;
+}
+#box02>aside>p>a:hover{
+    color: #fff;
+}
+/*aside 검색 */
+#box02>aside>form{
+    width: 220px;
+}
+#box02>aside>form fieldset{}
+#box02>aside>form p{
+    width: 100%;
+    text-align: center;
+}
+#box02>aside>form p>label{
+    margin-top: 5px;
+    float: right;
+}
+#box02>aside>form p>input{
+    width: 150px;
+    font: 16px 'noto Sans KR',sans-serif;
+    background-color: #222;
+    border: 1px solid #222;
+    border-bottom: 1px solid #999;
+    color: #999;
+}
+
+
+/* ------------------------------------------- */
+/* box02 */
+#box02>.grayback{
+    width: 100%;
+    background-color: #ebebeb;
+}
+#box02 section{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-self: center;
+    padding: 50px 0;
+}
+#box02 section>div{
+    width: 50%;
+}
+.contents{
+    padding-right: 10px;
+}
+.contents>dl{
+    padding-top: 30px;
+    padding-left: 15px;
+}
+.contents>dl>dt{
+    font: 30px/42px 'noto Sans KR',sans-serif;
+    color: #222;
+}
+.contents>dl>dt:nth-child(2){
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.contents>dl>dd{
+    margin-top: 20px;
+    font: 16px/20px 'noto Sans KR',sans-serif;
+}
+.contents>p{
+    margin-top: 20px;
+    font: 16px/20px 'noto Sans KR',sans-serif;
+    font-weight: 300;
+    padding-left: 15px;
+}
+.contents>p.app{
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+} 
+.contents p.app>a{
+    color: #222;
+    margin: 15px;
+}
+.contents>p.app>a:hover{
+    color: #ee721e;
+}
+/* 01 섹션  */
+
+#parti01 .image>img:nth-child(2){
+    display: none;
+}
+#parti01 .image{
+    overflow: hidden;
+    position: relative;
+}
+#parti01 .image>figure{
+    position: absolute;
+    top: 20%; left: -20px;
+    opacity: 0;
+}
+/* 비디오섹션 */
+#box02>.video{
+    width: 100%;
+    background-color: #000;
+    padding: 0;
+    display: block;
+    justify-content: unset;
+}
+#box02>.video figure{
+    width: 100%;
+    margin: 0 auto;
+}
+.video figure>video{
+    width: 100%;
+}
+
+/* 02 섹션  */
+#box02>.grayback section .image{
+    overflow: hidden;
+    height: 600px;
+}
+#parti02:hover img{
+    transform: scale(1.2);
+}
+#box02>.grayback .image>img{
+    width: 100%;
+    transition: transform 1s;
+}
+/* 03 섹션  */
+#parti03{
+    position: relative;
+}
+#parti03 .line{
+    width: 80%;
+    height: 99%;
+    border: 1px solid #999;
+    position: absolute;
+    z-index: -9000;
+}
+#parti03 .image>img{
+    margin-top: 100px;
+    box-shadow: 15px 15px 25px -6px #dedede;
+}
+/* 04 섹션  */
+#box02>.grayback section .image{
+    overflow: hidden;
+    height: 500px;
+}
+#parti04:hover img{
+    transform: scale(1.2);
+}
+#box02>.grayback .image>img{
+    width: 100%;
+    transition: transform 1s;
+}
+
+/* ------------------------------------------- */
+/* modal */
+#modal{
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 9999;
+    display: none;
+}
+#modal h5{
+    font: 30px 'noto Sans KR',sans-serif;
+    color: #222;
+    text-align: center;
+}
+#modal .close{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 30px; right: 30px;
+}
+#modal .close>span{
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #222;
+    transform: rotate(-135deg) translate(0%);
+}
+#modal .close>span:nth-child(2) {
+    transform: rotate(-45deg) translate(0%);
+}
+/* 흰배경 */
+#modal>div{
+    width: 500px;
+    height: 600px;
+    background-color: #fff;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    margin: -330px 0 0 -280px;
+}
+/* ----------------------- */
+/* login */
+#login p{
+    font:18px/40px 'noto Sans KR',sans-serif;
+    margin: 20px 0;
+}
+#login p:nth-child(2){
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+}
+#login p:nth-child(4)>input{
+    background-color: #e94040;
+    border: none;
+    color: #fff;
+    margin-top: 30px;
+}
+#login p:nth-child(5){
+    font-size: 16px;
+    margin-bottom: 0;
+}
+#login p:last-child{
+    height: 40px;
+    background-color: #dedede;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+#login p:last-child>a{
+    display: block;
+    width: 100%;
+    height: 40px;
+    color: #222;
+}
+#login p input{
+    width: 100%;
+    font:18px/40px 'noto Sans KR',sans-serif;
+    border: 1px solid #222;
+    border-radius: 0px;
+
+}
+#login .check input{
+    width: 30px;
+}
+/* ----------------------- */
+/* join */
+#join p{
+    font:16px/40px 'noto Sans KR',sans-serif;
+    margin: 20px 0 0;
+}
+#join p input{
+    width: 100%;
+    font:18px/40px 'noto Sans KR',sans-serif;
+    border: 1px solid #222;
+    border-radius: 0px;
+}
+#join p:nth-child(4){
+    float: left;
+}
+#join p:nth-child(4) input{
+    width: 80%;
+}
+#join p:nth-child(5){
+    float: left;
+    margin-bottom: 20px;
+}
+#join p:nth-child(6){
+    clear: both;
+    
+}
+#join p:nth-child(6) input{
+    background-color: #e94040;
+    border: none;
+    color: #fff;
+}
+#join small{
+    display: block;
+    font: 14px 'noto Sans KR',sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+#join .or{
+    margin-bottom: 70px;
+}
+#join .or a{
+    display: block;
+    width: 100%;
+    height: 40px;
+    color: #fff;
+}
+#join .or p{
+    width: 100%;
+    font:18px/40px 'noto Sans KR',sans-serif;
+    background-color: #999;
+   text-align: center;
+}

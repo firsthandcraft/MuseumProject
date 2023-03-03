@@ -1,0 +1,170 @@
+@charset "utf-8";
+
+@media screen and (min-width: 1200px) {
+    /* ------------------------------------------- */
+    /* footer */
+    .center>select{
+        display: none;
+    }
+
+    /* 패밀리사이트 이름  */
+    .familysitename{
+        width: 50%;
+    }
+    /* 구독신청 */
+    #footerwrap>form{
+        width: 50%;
+        float: left;
+    }
+    /* 패밀리사이트 */
+    #footerwrap select{
+        display: none;
+    }
+    /* ^ 위버튼 */
+    footer>span{
+        display: none;
+    }
+}
+@media screen and (max-width:1199px) and (min-width: 980px) {
+    /* ------------------------------------------- */
+    /* footer */
+
+    /* 패밀리사이트 */
+    #footerwrap select{
+        display: none;
+    }
+    /* ^ 위버튼 */
+    footer>span{
+        display: none;
+    }
+
+}
+@media screen and (max-width:979px) and (min-width: 580px) {
+    /* ------------------------------------ */
+     /* ------------------------------------------- */
+    /* footer */
+    #footerwrap{
+        display: none;
+    }
+    /* 공통 폰트 */
+    #footerwrap ul>li>a{
+        font: 12px/30px 'noto Sans KR',sans-serif;
+    }
+    /* 패밀리사이트 이름  */
+    .familysitename{
+        display: none;
+    }
+    /* ------------------------------------ */
+    /* none설정 */
+    /* 구독신청 */
+    #footerwrap>form{
+        width: 100%;
+        /* display: none; */
+    }
+    #footerwrap>form>fieldset>label{
+        margin-right: 10%;
+        font: 12px/30px 'noto Sans KR',sans-serif;
+    }
+    #footerwrap>form>fieldset>input{
+        width: 40%;
+        font: 12px/24px 'noto Sans KR',sans-serif;
+    }
+    #footerwrap>form>fieldset>input:last-child{
+        width: 100px;
+        float: right;
+        margin-top: 5px;
+    }
+    /* ------------------------------------ */
+    /* none설정 */
+    /* 로고 */
+    #footerwrap h2{
+        /* display: none; */
+    }
+    /* ------------------------------------ */
+    #footerwrap .conbtn{width:100%;}
+    .conbtn ul{width:45%;}
+    /* ------------------------------------ */
+    /* none설정 */
+    /* 패밀리사이트 */
+    #footerwrap select{
+        font: 12px/30px 'noto Sans KR',sans-serif;
+        /* display: none; */
+    }
+    /* 소셜아이콘 */
+    #footerwrap .social{
+        display: none;
+    }
+    /* copyright */
+    footer> p{
+        font: 12px/24px 'noto Sans KR',sans-serif;
+        color: #999;
+        clear: both;
+    }
+    .socialbtn fieldset {
+        text-align:center;
+    }
+}
+@media screen and (max-width:579px) {
+     /* ------------------------------------------- */
+    /* footer */
+    #footerwrap{
+        display: none;
+    }
+    /* 공통 폰트 */
+    #footerwrap ul>li>a{
+        font: 12px/30px 'noto Sans KR',sans-serif;
+    }
+    /* 패밀리사이트 이름  */
+    .familysitename{
+        display: none;
+    }
+    /* ------------------------------------ */
+    /* none설정 */
+    /* 구독신청 */
+    #footerwrap>form{
+        width: 100%;
+        /* display: none; */
+    }
+    #footerwrap>form>fieldset>label{
+        margin-right: 10%;
+        font: 12px/30px 'noto Sans KR',sans-serif;
+    }
+    #footerwrap>form>fieldset>input{
+        width: 40%;
+        font: 12px/24px 'noto Sans KR',sans-serif;
+    }
+    #footerwrap>form>fieldset>input:last-child{
+        width: 100px;
+        float: right;
+        margin-top: 5px;
+    }
+    /* ------------------------------------ */
+    /* none설정 */
+    /* 로고 */
+    #footerwrap h2{
+        /* display: none; */
+    }
+    /* ------------------------------------ */
+    #footerwrap .conbtn{width:100%;}
+    .conbtn ul{width:45%;}
+    /* ------------------------------------ */
+    /* none설정 */
+    /* 패밀리사이트 */
+    #footerwrap select{
+        font: 12px/30px 'noto Sans KR',sans-serif;
+        /* display: none; */
+    }
+    /* 소셜아이콘 */
+    #footerwrap .social{
+        display: none;
+    }
+    /* copyright */
+    footer> p{
+        font: 12px/24px 'noto Sans KR',sans-serif;
+        color: #999;
+        clear: both;
+    }
+    .socialbtn fieldset {
+        text-align:center;
+    }
+}

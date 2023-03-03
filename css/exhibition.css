@@ -1,0 +1,323 @@
+@charset "utf-8";
+/* CSS Document */
+/* main */
+main{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+/* 베너 */
+/* box01 */
+#box01{
+    margin: 70px auto 0;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+#box01 .small{
+    width: 2000px;
+    height: 500px;
+    position: absolute;
+    left: 50%; top: 0;
+    margin: 0 0 0 -1000px;
+}
+#box01>.small>li{
+
+    height: 500px;
+    position: absolute;
+    top: 0; left: 0;
+}
+
+/* aside */
+/* 전시검색 */
+/* box11 */
+#box11{
+    position: relative;
+}
+#box11 .ong{
+    position: fixed;
+    top: 70px;
+}
+#box11>aside{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 0; top: 0;
+    z-index: 2000;
+    width: 100%;
+    height: 35px;
+    background-color: #222;
+}
+#box11>aside>p{
+    width: 120px;
+    font: 14px/30px 'noto Sans KR',sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+aside a{
+    color: #999;
+}
+#box11>aside>p>a:hover{
+    color: #fff;
+}
+/*aside 검색하는 부분 상세 */
+#box11>aside>form{
+    width: 220px;
+}
+#box11>aside>form fieldset{}
+#box11>aside>form p{
+    width: 100%;
+    text-align: center;
+}
+#box11>aside>form p>label{
+    margin-top: 5px;
+    float: right;
+}
+#box11>aside>form p>input{
+    width: 150px;
+    font: 16px 'noto Sans KR',sans-serif;
+    background-color: #222;
+    border: 1px solid #222;
+    border-bottom: 1px solid #999;
+    color: #999;
+}
+
+/* ------------------------------------------- */
+/* 전시 포스터 */
+main>article{
+    width: 90%;
+    margin:120px auto 50px;
+}
+main>#box11{
+    width: 100%;
+    margin: 0;
+}
+main>article>ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+main>article>ul>li{
+    width: 33.3333%;
+    margin-bottom: 70px;
+}
+main>article>ul>li:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: all 0.6s ease;
+}
+main>article>ul li>a>figure{
+    width: 95%;
+    padding: 0 5%;
+
+}
+main>article>ul li>a>figure figcaption{
+    margin-top: 20px;
+    width: 100%;
+    font: 12px 'noto Sans KR',sans-serif;
+    color: #222;
+    text-align: center;
+}
+/* 과거전시 년도 */
+#box02{
+    display: none;
+}
+#box02>.number>li{
+    width: 80px;
+    text-align: center;
+    font: 18px 'noto Sans KR',sans-serif;
+}
+#box02>.number>li a{
+    color: #222;
+}
+#box02>.number>li:hover{
+    background-color: unset;
+    text-decoration: underline;
+}
+#box02>.number>li.highlight{
+    text-decoration: underline;
+}
+/* 예정 전시 */
+#box04{
+    margin: 100px auto;
+    display: none;
+}
+.cal_top{
+    width: 90%;
+    text-align: center;
+    font: 18px 'noto Sans KR',sans-serif;
+    margin-bottom: 40px;
+}
+.cal_top>a{
+    margin: 0px 100px;
+}
+.cal{
+    text-align: center; 
+}
+table.calendar{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
+    display: inline-table;
+    text-align: left;
+}
+table.calendar th{
+    background-color: #222;
+    color: #fff;
+}
+table.calendar td{
+    vertical-align: top;
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #222;
+    width: 100px;
+}
+/* 예정전시 이벤트 */
+.eventinner {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 2px;
+    line-height: 1.1;}
+
+/* ------------------------------------------- */
+/* modal */
+#modal{
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 9999;
+    display: none;
+}
+#modal h5{
+    font: 30px 'noto Sans KR',sans-serif;
+    color: #222;
+    text-align: center;
+}
+#modal .close{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 30px; right: 30px;
+}
+#modal .close>span{
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #222;
+    transform: rotate(-135deg) translate(0%);
+}
+#modal .close>span:nth-child(2) {
+    transform: rotate(-45deg) translate(0%);
+}
+/* 흰배경 */
+#modal>div{
+    width: 500px;
+    height: 600px;
+    background-color: #fff;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    margin: -330px 0 0 -280px;
+}
+/* ----------------------- */
+/* login */
+#login p{
+    font:18px/40px 'noto Sans KR',sans-serif;
+    margin: 20px 0;
+}
+#login p:nth-child(2){
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+}
+#login p:nth-child(4)>input{
+    background-color: #e94040;
+    border: none;
+    color: #fff;
+    margin-top: 30px;
+}
+#login p:nth-child(5){
+    font-size: 16px;
+    margin-bottom: 0;
+}
+#login p:last-child{
+    height: 40px;
+    background-color: #dedede;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+#login p:last-child>a{
+    display: block;
+    width: 100%;
+    height: 40px;
+    color: #222;
+}
+#login p input{
+    width: 100%;
+    font:18px/40px 'noto Sans KR',sans-serif;
+    border: 1px solid #222;
+    border-radius: 0px;
+
+}
+#login .check input{
+    width: 30px;
+}
+/* ----------------------- */
+/* join */
+#join p{
+    font:16px/40px 'noto Sans KR',sans-serif;
+    margin: 20px 0 0;
+}
+#join p input{
+    width: 100%;
+    font:18px/40px 'noto Sans KR',sans-serif;
+    border: 1px solid #222;
+    border-radius: 0px;
+}
+#join p:nth-child(4){
+    float: left;
+}
+#join p:nth-child(4) input{
+    width: 80%;
+}
+#join p:nth-child(5){
+    float: left;
+    margin-bottom: 20px;
+}
+#join p:nth-child(6){
+    clear: both;
+    
+}
+#join p:nth-child(6) input{
+    background-color: #e94040;
+    border: none;
+    color: #fff;
+}
+#join small{
+    display: block;
+    font: 14px 'noto Sans KR',sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+#join .or{
+    margin-bottom: 70px;
+}
+#join .or a{
+    display: block;
+    width: 100%;
+    height: 40px;
+    color: #fff;
+}
+#join .or p{
+    width: 100%;
+    font:18px/40px 'noto Sans KR',sans-serif;
+    background-color: #999;
+   text-align: center;
+}

@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+@keyframes rotate{
+    0%{rotate:180deg;}
+    100%{rotate:0deg;}
+}
+@keyframes rotateReverse{
+    0%{rotate:-180deg;}
+    100%{rotate:0deg;}
+}
+/* ------------------------------------------- */
+/* footer */
+footer{
+    width: 100%;
+    border-top: 1px solid #222;
+    position: relative;
+}
+/* footerwrap */
+#footerwrap{
+    width: 90%;
+    margin: 0 auto;
+}
+/* 공통 폰트 */
+footer a{
+    transition: 300ms;
+    font: 16px/40px 'noto Sans KR',sans-serif;
+    color: #999;
+}
+#footerwrap ul>li:hover>a{
+    color: #000;
+}
+/* ------------------------------- */
+/* 상단 풋터 */
+.footerFirst{padding: 40px 0;}
+.footerFirst, .ffWrap{
+    display:flex;
+    justify-content: space-between;
+}
+.conbtn{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 하단내용 */
+.fcontents li:nth-child(1)>a,.socialbtn label {
+    font: 20px/40px 'Fira Sans Condensed',sans-serif;
+    color: #555;
+}
+/* 구독신청 */
+#footerwrap>form{
+    width: 60%;
+    float: left;
+}
+#footerwrap>form>fieldset>label{
+    font: 16px/40px 'noto Sans KR',sans-serif;
+    color: #999;
+    margin-right: 20px;
+}
+footer fieldset>input{
+    font: 16px/24px 'noto Sans KR',sans-serif;
+    
+    padding: 10px 20px 10px 10px;
+    border:#999 solid 1px ;
+    color: #999;
+}
+#userEmailone{
+    width:200px;
+}
+footer fieldset>input:last-child{
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: #dedede;
+}
+
+/* 소셜아이콘 */
+.footerFirst .social{
+    margin-top: 20px;
+    display: flex;
+}
+.footerFirst .social>li{
+    margin: 0 5px;
+}
+/* ---------------------------------------- */
+/* 하단 풋터 */
+.footerFinal{
+    border-top: 1px solid #222;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+.ffWrap{
+    width: 90%;
+    margin: 0 auto 40px;
+}
+.ffRight{width:80%; display: flex;justify-content: flex-end;}
+/* 로고 */
+.footerFinal h2{
+    width: 150px;
+    margin-top: 10px;
+    margin-right: 20px;
+    clear: both;
+    float: left;
+}
+.socialbtn label{
+    display: block;
+    margin:20px 0;
+}
+
+/* 패밀리사이트 이름  */
+.familysitename{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;align-items: center;
+    margin-right:50px;
+}
+.familysitename>li{    
+    padding:10px 0;
+    margin-left: 10px;
+    text-align: center;
+}
+.familysitename>li a{color:#555;}    
+/* 패밀리사이트 */
+.footerFinal select{
+    display: inline;
+    width:180px;
+    padding: 14px 10px;
+    font: 16px/40px 'noto Sans KR',sans-serif;
+    border:1px solid #ddd;
+    border-radius: 10px;
+    color: #555;
+}
+/* copyright */
+.copy{
+    width: 100%;
+    font: 14px/40px 'noto Sans KR',sans-serif;
+    color: #999;
+    text-align: center;
+    clear: both;
+}
+/* ^ 위버튼 */
+.footerBtn{
+    display: block;
+    width: 34px;
+    padding: 3px;
+    position: absolute;
+    top:-36px;
+    right: 4px;
+    z-index: 1000;
+
+}
+.rotate{animation:rotate 0.3s linear normal 1 ;transform:rotate(180deg);}
+.rotateReverse{animation:rotateReverse 0.3s linear normal 1 ;transform:rotate(0deg);}

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MMCA_online_museum_exhibition</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/exhibition.css">
+    <link rel="stylesheet" href="../css/exhibitonmediaquery.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/headermediaquery.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/footermediaquery.css">
+
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/exhibition.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/headerFooter.js"></script> 
+     <!-- 폰트 -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@700&display=swap" rel="stylesheet">
+    <!-- 구글 아이콘 -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div id="wrap">
+        <div class="header_html"></div>
+    <!-- ---------------------------------------------------------------- -->
+        <!-- 어싸이드 스크롤시 헤데에 붙게하기 위한 div ScrollBox -->
+        <main class="scrollBox">
+            <!-- 베너이미지 -->
+            <div id="box01">
+                <h3 class="hide">전시이미지</h3>
+                <ul class="small">
+                    <li><a href="#"><img src="../img/banner.jpg" alt="01"></a></li>
+                    <li><a href="#"><img src="../img/banner2.jpg" alt="02"></a></li>
+                    <li><a href="#"><img src="../img/banner4.jpg" alt="03"></a></li>
+                </ul>
+            </div>
+            <!-- 소제목 -->
+            <!--box02  -->
+            <section id="box11">
+                <!-- 소제목 -->
+                <!-- aside 검색 -->
+                <aside>
+                    <p><a href="#">과거전시</a></p>
+                    <p><a href="#">현재전시</a></p>
+                    <p><a href="#">예정전시</a></p>
+                     <!-- 검색 -->
+                     <form action="#" method="post">
+                        <fieldset>
+                        <legend class="hide">전시검색</legend>
+                        <p>
+                            <label for="userSearch"><img src="../img/search.png" alt="search"></label>
+                            <input type="text" id="userSearch">
+                        </p>
+                        </fieldset>
+                        </form>
+                </aside>
+            </section>
+            <!--box02  -->
+            <article id="box02">
+                <h3 class="hide">과거전시</h3>
+                <ul class="number">
+                    <li><a href="#">2019</a></li>
+                    <li><a href="#">2020</a></li>
+                    <li class="on"><a href="#">2021</a></li>
+                    <li><a href="#">2022</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">
+                        <figure>
+                            <img src="../img/poster010.png" alt="10">
+                            <figcaption>
+                               Maman<br>
+                                2021.11.20-2021.12.20
+                            </figcaption>
+                        </figure>
+                    </a></li>
+                    <li><a href="#">
+                        <figure>
+                            <img src="../img/poster011.png" alt="11">
+                            <figcaption>
+                                Morph<br>
+                                2021.11.05-2022.11.30
+                            </figcaption>
+                        </figure>
+                    </a></li>
+                    <li><a href="#">
+                        <figure>
+                            <img src="../img/poster012.png" alt="12">
+                            <figcaption>
+                               The parliament of possibilities<br>
+                                2021.10.01-2022.11.10
+                            </figcaption>
+                        </figure>
+                    </a></li>
+                    <li><a href="#">
+                        <figure>
+                            <img src="../img/poster013.png" alt="13">
+                            <figcaption>
+                                Time of the Earth 대지의 시간<br>
+                                2021.09.20-2021.10.01
+                            </figcaption>
+                        </figure>
+                    </a></li>
+                    <li>
+                        <a href="#">
+                        <figure>
+                            <img src="../img/poster014.png" alt="14">
+                            <figcaption>
+                                GRAPHIC SYMPHONIA<br>
+                                2021.08.19-2021.09.25
+                            </figcaption>
+                        </figure>
+                    </a></li>
+                </ul>
+            </article>
+            <!--box03  -->
+            <article id="box03">
+                <h3 class="hide">현재전시</h3>
+                <ul>
+                    <li><a href="#">
+                        <figure>
+                            <img src="../img/rectposter01.png" alt="01">
+                            <figcaption>
+                                PRISM FANTASY: NEW WAYS TO VIEW LIGHT<br>
+                                2021.02.05-2022.01.20
+                            </figcaption>
+                        </figure>
+                    </a></li>
+                    <li><a href="#">
+                        <figure>
+                            <img src="../img/rectposter02.png" alt="02">
+                            <figcaption>
+                                삼라만상 김환기에서 양푸동까지<br>
+                                2021.12.05-2022.02.19
+                            </figcaption>
+                        </figure>
+                    </a></li>
+                    <li><a href="#">
+                        <figure>
+                            <img src="../img/rectposter03.png" alt="03">
+                            <figcaption>
+                                POROSITY VALLY, POTTABLE HOLES<br>
+                                2021.12.14-2022.01.10
+                            </figcaption>
+                        </figure>
+                    </a></li>
+                    <li><a href="#">
+                        <figure>
+                            <img src="../img/rectposter04.png" alt="04">
+                            <figcaption>
+                                RODEN CRATER 로덴 분화구<br>
+                                2022.01.20-2022.03.01
+                            </figcaption>
+                        </figure>
+                    </a></li>
+                    <li><a href="#">
+                        <figure>
+                            <img src="../img/rectposter05.png" alt="05">
+                            <figcaption>
+                                AS USUAL 늘 마시던걸로<br>
+                                2021.11.05-2022.11.30
+                            </figcaption>
+                        </figure>
+                    </a></li>
+                </ul>
+            </article>
+            <!-- box04 -->
+            <article id="box04">
+                <div class="cal_top">
+                    <a href="#" id="movePrevMonth"><span id="prevMonth" class="cal_tit">&lt;</span></a>
+                    <span id="cal_top_year"></span>
+                    <span id="cal_top_month"></span>
+                    <a href="#" id="moveNextMonth"><span id="nextMonth" class="cal_tit">&gt;</span></a>
+                </div>
+                <div id="cal_tab" class="cal">
+                    <div class="eventinner">
+                        <span class="eventtitle">
+                            MMCAPICKS 2022
+                        </span>
+                    </div>
+                </div>
+            </article>
+
+        </main>
+        <!-- main -->
+
+   <!-- ---------------------------------------------------------------- -->
+   <!-- modal login-->
+   <div id="modal">
+        <!-- ---------------------------------------------------------------- -->
+        <div id="login">
+            <div class="close">
+                <span></span>
+                <span></span>
+            </div>
+            <h5>로그인</h5>
+            <form action="#" method="POST">
+                <p><label for="userEmail"></label>
+                    <input id="userEmail" type="text" maxlength="12"
+                    autocomplete="off" placeholder="이메일" autofocus required >
+                </p>
+                <p class="check"><label><input type="checkbox">이메일 저장</label>
+                </p>
+                <p><label for="userPassword"></label>
+                    <input type="password" id="userPassword" minlength="6" placeholder="비밀번호" required>
+                </p>
+                <p><input type="submit" value="로그인"></p>
+                <p>회원가입하시면 다양한 서비스를 이용하실 수있습니다.</p>
+                <p><a href="#">회원가입</a></p>
+            </form>
+        </div>
+        <!-- ---------------------------------------------------------------- -->
+        <div id="join" >
+            <h5>회원가입</h5>
+            <div class="close">
+                <span></span>
+                <span></span>
+            </div>
+            <form action="#" method="POST">
+                <p><label for="userId"></label>
+                    <input id="user
+                    Id" type="text" maxlength="12"
+                    autocomplete="off" placeholder="이메일" autofocus required >
+                </p>
+                <p><label for="userPW"></label>
+                    <input type="password" id="userPw" minlength="6" placeholder="비밀번호" required>
+                </p>
+                <p><label for="userPass"></label>
+                    <input type="password" id="userPass" minlength="6" placeholder="비밀번호재확인" required>
+                </p>
+                <p>
+                    <label for="userName"></label>
+                    <input type="text" id="userName" placeholder="이름">
+                </p>
+                <p><label for="userTel"></label>
+                    <input type="tel" id="userTel" placeholder="연락처">
+                </p>
+                
+                <p><input type="submit" value="회원가입"></p>
+                <small>or</small>
+                <div class="or">
+                    <p><a href="#">구글 계정으로 가입하기</a></p>
+                    <p><a href="#">카카오 계정으로 가입하기</a></p>
+                    <p><a href="#">네이버 계정으로 가입하기</a></p>
+                </div>
+            </form>
+        </div>
+   </div>
+   <!-- modal login-->
+   <!-- ---------------------------------------------------------------- -->
+   <div class="footer_html"></div>
+    </div>  
+</body>
+</html>

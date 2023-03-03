@@ -1,0 +1,202 @@
+@charset "utf-8";
+
+@media screen and (min-width: 1200px) {
+    /* ------------------------------------------- */
+    /* main */
+    main{
+    }
+    /* ------------------------------------------- */
+    /* box01 */
+    #box01 .text>dl{
+        width: 600px;
+    }
+    /* ------------------------------------------- */
+    /* box02 */
+    #box02{
+        width: 1200px;
+    }
+    /* ------------------------------------------- */
+    /* box03 */
+    #box03{
+        width: 1200px;
+    }
+    /* ------------------------------------------- */
+    /* box05 */
+    #box05{
+        width: 1200px;
+    }
+}
+@media screen and (max-width:1199px) and (min-width: 980px) {
+    /* ------------------------------------------- */
+    /* main */
+    main{}
+
+    /* ------------------------------------------- */
+    /* box01 */
+    #box01 .text>dl{
+        width: 600px;
+    }
+   
+}
+@media screen and (max-width:979px) and (min-width: 580px) {
+    /* ------------------------------------------- */
+    /* main */
+    main{}
+    /* ------------------------------------------- */
+    /* box01 */
+    /* ------------------------------------------- */
+    /* box02 */
+    #box02>ul>li>span{
+        height: 100px;
+    }
+    #box02>ul>li>span>img{
+        max-width: unset;
+        max-height: 100%;
+    }
+    #box02>ul>li>p{
+        margin: 10px auto 0;
+    }
+    /* ------------------------------------------- */
+    /* box03 */
+    #box03>ul>li>span{
+        height: 100px;
+    }
+    #box03>ul>li>span>img{
+        max-width: unset;
+        max-height: 100%;
+    }
+    #box03>ul>li>p{
+        margin: 10px auto 0;
+    }
+    /* ------------------------------------------- */
+    /* box05 */
+    #box05{
+        background: url('../img/artist.jpg') no-repeat top center;
+        border: none;
+    }
+    #box05>.contents{
+        padding: 5%;
+        width:90%;
+        height: 90%;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    #box05>.contents>p{
+        margin-top: 10px;
+        color: #fff;
+    }
+    #box05>.contents>dl{
+        font: 14px/30px 'noto Sans KR',sans-serif;
+        color: #fff;
+    }
+    #box05>.contents>dl>dt{
+        font: 500 24px/50px 'noto Sans KR',sans-serif;
+        margin-bottom: 30px;
+    }
+    #box05>.contents>dl>dd:last-child{
+        margin-top: 30px;
+    }
+  
+        /* ------------------------------------------- */
+    /* modal */
+    #modal>div{
+        width: 300px;
+        height: 650px;
+        margin: -350px 0 0 -180px;
+    }
+    #join p:nth-child(4){
+        float:unset;
+    }
+    #join p:nth-child(5){
+        float:unset;
+    }
+    #join p:nth-child(4) input{
+        width: 100%;
+    }
+    #join p:nth-child(5) input{
+        width: 100%;
+    }
+}
+@media screen and (max-width:579px) {
+    /* ------------------------------------------- */
+    /* main */
+    /* box01 */
+    /* ------------------------------------------- */
+    /* box02 */
+    #box02>ul>li{
+        height: 320px;
+    }
+    #box02>ul>li>span{
+        height: 80px;
+    }
+    #box02>ul>li>span>img{
+        max-width: unset;
+        max-height: 100%;
+    }
+    #box02>ul>li>p{
+        margin: 10px auto 0;
+    }
+    /* ------------------------------------------- */
+    /* box03 */
+    #box03>ul>li{
+        height: 320px;
+    }
+    #box03>ul>li>span{
+        height: 80px;
+    }
+    #box03>ul>li>span>img{
+        max-width: unset;
+        max-height: 100%;
+    }
+    #box03>ul>li>p{
+        margin: 10px auto 0;
+    }
+    /* ------------------------------------------- */
+    /* box04 */
+    /* ------------------------------------------- */
+    /* box05 */
+    #box05{
+        background: url('../img/artist.jpg') no-repeat top center;
+        border: none;
+    }
+    #box05>.contents{
+        padding: 5%;
+        width:90%;
+        height: 90%;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    #box05>.contents>p{
+        margin-top: 10px;
+        color: #fff;
+    }
+    #box05>.contents>dl{
+        font: 14px/30px 'noto Sans KR',sans-serif;
+        color: #fff;
+    }
+    #box05>.contents>dl>dt{
+        font: 500 24px/50px 'noto Sans KR',sans-serif;
+        margin-bottom: 30px;
+    }
+    #box05>.contents>dl>dd:last-child{
+        margin-top: 30px;
+    }
+    
+    /* ------------------------------------------- */
+    /* modal */
+    #modal>div{
+        width: 300px;
+        height: 650px;
+        margin: -350px 0 0 -180px;
+    }
+    #join p:nth-child(4){
+        float:unset;
+    }
+    #join p:nth-child(5){
+        float:unset;
+    }
+    #join p:nth-child(4) input{
+        width: 100%;
+    }
+    #join p:nth-child(5) input{
+        width: 100%;
+    }
+}

@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+@media screen and (min-width: 1200px) {
+  
+    /* ------------------------------------------- */
+    /* main */
+    #box01 section{
+        width: 1200px;
+        margin: 70px auto;
+        display: flex;
+        justify-self: center;
+    }
+  
+}
+@media screen and (max-width:1199px) and (min-width: 980px) {
+
+    /* main */
+    #box01 section{
+        width: 90%;
+        height: 600px;
+        margin: 50px auto 0;
+    }
+    #box01>.grayback{
+        padding-top: 30px;
+    
+    }
+    .contents>dl{
+        padding-top: 0;
+    }
+    .contents>dl>dt:nth-child(2){
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .contents>dl>dd{
+        margin-top: 15px;
+        font: 14px/20px 'noto Sans KR',sans-serif;
+    }
+    /* 01 섹션  */
+    #box01>.parti01{
+        height: 550px;
+    }
+    /* 03 섹션  */
+    #box01>.parti03 .image{
+        margin-top: 50px;
+    }
+    
+}
+@media screen and (max-width:979px) and (min-width: 580px) {
+     /* ------------------------------------------- */
+    /* main */
+    #box01 section{
+        width: 90%;
+        height: 600px;
+        margin: 50px auto 0;
+    }
+    #box01>.grayback{
+        padding-top: 30px;
+    }
+    .contents>dl{
+        padding-top: 0;
+    }
+    .contents>dl>dt:nth-child(2){
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .contents>dl>dd{
+        margin-top: 15px;
+        font: 14px/20px 'noto Sans KR',sans-serif;
+    }
+    .contents p.script{
+        display: none;
+    }
+    /* 01 섹션  */
+    #box01>.parti01{
+        height: 550px;
+    }
+    
+    /* 03 섹션  */
+    #box01>.parti03 .image{
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width:579px) {
+    /* ------------------------------------------- */
+    /* main */
+    #form{
+        width: 90%;
+    }
+    #form p:nth-child(2) input{
+        width: 100%;
+    }
+    #form p:nth-child(3) input{
+        width: 100%;;
+    }
+    #form p:nth-child(4) input{
+        width: 100%;
+    }
+    #form p:nth-child(4) {
+        width: 100%;
+    }
+    #form p:nth-child(5){
+        width: 100%;
+    }
+    #form p:nth-child(5) input{
+        width: 100%;
+    }
+    #form p:nth-child(6)>label:nth-child(4) {
+        margin-left: 130px;
+    }
+}

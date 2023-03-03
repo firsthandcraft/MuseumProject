@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+@media screen and (min-width: 1200px) {
+    /* ------------------------------------------- */
+    /* ------------------------------------------- */
+    /* main */
+
+    /* ------------------------------------------- */
+    /* box01 */
+
+    /* ------------------------------------------- */
+    /* main 전시포스터 */
+    main>article{
+        width: 1200px;
+    }
+    main>article>ul>li{
+        width: 33.3333%;
+        margin-bottom: 70px;
+    }
+    main>article li>a>figure{
+        width: 95%;
+        padding: 0 5%;
+    }
+    main>article li>a>figure figcaption{
+        margin-top: 20px;
+        width: 100%;
+        font-size: 14px;
+    }
+    /* 예정 전시 */
+    .cal_top{
+        width: 1200px;
+    }
+   
+}
+@media screen and (max-width:1199px) and (min-width: 980px) {
+/* ------------------------------------------- */
+    /* main */
+    main{}
+
+    /* ------------------------------------------- */
+    /* main 전시포스터 */
+    main>article>ul li>a>figure figcaption{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:979px) and (min-width: 580px) {
+    /* ------------------------------------------- */
+    /* main */
+    main{}
+    /* ------------------------------------------- */
+    /* box01 */
+    /* aside */
+    #box11>aside>p{
+        width: 100px;
+        font: 12px/30px 'noto Sans KR',sans-serif;
+    }
+     /* 예정전시 캘린더 */
+     .cal_top>a{
+        margin: 0px 80px;
+    }
+
+    /* ------------------------------------------- */
+    /* modal */
+    #modal>div{
+        width: 300px;
+        height: 650px;
+        margin: -350px 0 0 -180px;
+    }
+    #join p:nth-child(4){
+        float:unset;
+    }
+    #join p:nth-child(5){
+        float:unset;
+    }
+    #join p:nth-child(4) input{
+        width: 100%;
+    }
+    #join p:nth-child(5) input{
+        width: 100%;
+    }
+}
+@media screen and (max-width:579px) {
+    /* ------------------------------------------- */
+    /* main */
+    /* box11 */
+    /* aside */
+    #box11>aside>p{
+        width: 80px;
+        font: 12px/30px 'noto Sans KR',sans-serif;
+    }
+    /*aside 검색 */
+    #box11>aside>form{
+        /* width: 150px; */
+        display: none;
+    }
+    /* ------------------------------------------- */
+    /* 전시포스터 */
+    main>article {
+        margin: 50px auto;
+    }
+    main>article>ul{
+        display:block;
+        justify-content: unset;
+        flex-wrap: unset;
+    }
+    main>article>ul>li{
+        width:90%;
+        margin: 0 auto 70px;
+    }
+    main>article li>a>figure figcaption{
+        text-align: center;
+    }
+    /* 과거전시 년도 */
+    #box02>.number>li{
+        margin-bottom: 10px;
+    }
+    #box02>.number>li:last-child{
+        margin-bottom: 30px;
+    }
+
+    /* 예정전시 캘린더 */
+    .cal_top>a{
+        margin: 0px 80px;
+    }
+    /* ------------------------------------------- */
+    /* modal */
+    #modal>div{
+        width: 300px;
+        height: 650px;
+        margin: -350px 0 0 -180px;
+    }
+    #join p:nth-child(4){
+        float:unset;
+    }
+    #join p:nth-child(5){
+        float:unset;
+    }
+    #join p:nth-child(4) input{
+        width: 100%;
+    }
+    #join p:nth-child(5) input{
+        width: 100%;
+    }
+}
