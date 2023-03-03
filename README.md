@@ -28,4 +28,4 @@ MMCA 리뉴얼 사이트
 - 홈페이지에 관한 의견은 opaldust19@gmail.com으로 보내주세요. 감사합니다.
 
 ## 🕵️‍♀️: 화면구성
-![intro](https://user-images.githubusercontent.com/97497153/222651757-52ad5b57-a7d0-4e03-928a-a24868c2f140.png)
+![intro](https://user-images.githubusercontent.com/97497153/222652055-8445f361-dcaa-490b-97a8-0516f50a39e5.png)
