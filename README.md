@@ -2,7 +2,6 @@
 
 MMCA 리뉴얼 사이트 
 </br>
-<a href="https://firsthandcraft.github.io/handcraftProject/">완성사이트 보기</a>
 </br></br>
 <img width="1768" alt="스크린샷 2023-02-27 오후 9 05 51" src="https://user-images.githubusercontent.com/97497153/222413515-0e2d67ea-5447-4e90-a3e6-9e23d98e3829.png">
 
